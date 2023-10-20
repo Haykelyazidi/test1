@@ -14,7 +14,7 @@ pipeline {
     
         stage('Test') {
             steps {
-                sh 'mvn test' //-DsuiteXmlFile=testng.xml '  // Run TestNG tests
+                sh 'mvn test-DsuiteXmlFile=testng.xml '  // Run TestNG tests
             }
         }
     }
